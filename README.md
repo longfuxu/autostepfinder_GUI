@@ -2,11 +2,13 @@
 
 This project is a Python-based, graphical implementation of the `AutoStepfinder` algorithm, originally developed in MATLAB. This application provides an interactive user interface built with Streamlit for easy, automated step detection in single-molecule and other time-series data.
 
-This GUI wrapper was developed by Longfu Xu to provide an accessible, interactive interface for the powerful AutoStepfinder algorithm, making it easier to use for researchers without requiring scripting.
+This GUI wrapper was developed by [Longfu Xu](https://longfuxu.github.io/) to provide an accessible, interactive interface for the powerful AutoStepfinder algorithm, making it easier to use for researchers without requiring scripting.
+
+![image](property/image.jpg)
 
 ## Citation and Credits
 
-This implementation is based on the work presented in the paper:
+This implementation is based on the work presented in the [paper](https://www.sciencedirect.com/science/article/pii/S2666389921000829):
 
 **AutoStepfinder: a fast and automated step detection method for single-molecule analysis**
 
@@ -16,6 +18,7 @@ This implementation is based on the work presented in the paper:
 **Please cite the original paper when using this code for your research.** The original MATLAB package is available on [Zenodo](https://zenodo.org/record/4657659).
 
 For questions regarding the core algorithm, please contact the original authors.
+
 
 ## Features
 *   **Automated Step Detection**: Implements the robust, dual-pass `AutoStepfinder` algorithm.
@@ -29,7 +32,7 @@ For questions regarding the core algorithm, please contact the original authors.
 
 1.  **Clone this repository**:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/longfuxu/autostepfinder_GUI.git
     cd autostepfinder_GUI
     ```
 
